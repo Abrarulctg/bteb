@@ -1,0 +1,35 @@
+.container{
+    margin-top:0px;
+    box-shadow: 0px 0px 15px gray;
+}
+.box{
+    margin:0 20px 0 20px;
+}
+.top-box{
+    background-color:#683091;
+    color:white;
+    height: 50px;
+}
+.search-input{
+    border-radius: 8px;
+    box-shadow: 0px 3px 3px rgb(124, 124, 124);
+}
+.carousel{
+    box-shadow: 0 2px 8px gray;
+}
+.carousel img{
+    height:250px;
+    width:100%;
+}
+.bdlogo{
+    height: 100px !important;
+    width:100px !important;
+}
+.carousel-text{
+    margin-left:20px;
+    text-shadow: 3px 5px 15px rgb(41, 41, 41);
+
+}
+.caro-caption{
+    font-weight: 700;
+}
