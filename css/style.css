@@ -11,11 +11,15 @@
     height: 50px;
 }
 .search-input{
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0px 3px 3px rgb(124, 124, 124);
+}
+.top-btn{
+    margin-left:10px;
 }
 .carousel{
     box-shadow: 0 2px 8px gray;
+    padding-bottom: 10px;
 }
 .carousel img{
     height:250px;
@@ -25,6 +29,10 @@
     height: 100px !important;
     width:100px !important;
 }
+.home-logo{
+    height:30px;
+    width:30px;
+}
 .carousel-text{
     margin-left:20px;
     text-shadow: 3px 5px 15px rgb(41, 41, 41);
@@ -32,4 +40,95 @@
 }
 .caro-caption{
     font-weight: 700;
+}
+.navbar{
+    padding:0px !important;
+    line-height: 25px !important;
+}
+
+.nav-item{
+    font-size: 14px;
+    border-right: 1px solid rgb(224, 224, 224);
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+.nav-item:hover{
+    font-weight: 500;
+}
+.dropdown-menu{
+    padding:0px !important;
+    margin:0px !important;
+    line-height: 10px;
+}
+.dropdown-item{
+    font-size: 14px;
+}
+.nav-amader{
+    color:#FF6600 !important;
+}
+.nav-amader:hover{
+    color:#fff !important;
+    background-color: #FF6600;
+}
+.history-top{
+    background-color: #FF6600 !important;
+}
+.pattokrom{
+ color:#C40A2A !important;
+}
+.pattokrom:hover{
+    color:#fff !important;
+    background-color: #C40A2A;
+}
+.teachers-info{
+    color:#84154D !important;
+}
+.teachers-info:hover{
+       color:#fff !important;
+       background-color: #84154D;
+}
+.publication{
+    color:#098346 !important;
+}
+.publication:hover{
+       color:#fff !important;
+       background-color: #098346;
+}
+.result{
+    color:#1399BE!important;
+}
+.result:hover{
+       color:#fff !important;
+       background-color: #1399BE;
+}
+.gallary{
+    color:#8768DE!important;
+}
+.gallary:hover{
+       color:#fff !important;
+       background-color: #8768DE;
+}
+.download-ntvqf{
+    color:#000!important;
+}
+.download-ntvqf:hover{
+       color:#fff !important;
+       background-color: #000;
+}
+.pm-pic{
+    height:380px;
+    width:100%
+
+}
+marquee{
+    background-color: rgb(253, 186, 174);
+    line-height: 40px;
+    font-weight: 700;
+}
+.alert{
+    background-color:tomato;
+    width:250px;
+    margin:0 !important;
+    padding:0 !important;
+    line-height: 40px;
+    text-align: center;
 }
