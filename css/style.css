@@ -62,6 +62,9 @@
 .dropdown-item{
     font-size: 14px;
 }
+.nav-home:hover{
+    background-color: rgb(119, 117, 117);
+}
 .nav-amader{
     color:#FF6600 !important;
 }
@@ -204,11 +207,15 @@ marquee{
     margin-right:15px;
 }
 
-.card ul{
+
+.right-side-card ul{
     list-style: none;
 }
+.notice-topic ul li{
+    line-height: 14px;
+}
 
-.card li:before {   
+.notice-topic li:before {   
     content: "";  
     border-color: transparent #01b31e;  
     border-style: solid;  
@@ -220,6 +227,22 @@ marquee{
     top: 0.9em;  
     position: relative;  
 } 
-.cards-line-height-maintain{
-    line-height: 12px;
+.card{
+    height:180px;
+    margin-top: 20px;
+    background-color: #f5f5f5 !important;
+    box-shadow: 0px 1px 5px gray;
+    position: relative;
+    overflow: hidden;
+    line-height: 10px;
+}
+.card-padding{
+    padding: 0px !important;
+}
+.card-img{
+    height:100%;
+    width:90px;
+}
+.card-topic{
+    line-height:normal;
 }
