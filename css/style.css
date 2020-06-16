@@ -175,7 +175,7 @@ marquee{
 }
 .list-link{
     text-decoration: none;
-    color:rgb(109, 109, 109);
+    color:rgb(93, 93, 93);
 }
 .list-link:hover{
     text-decoration: none;
@@ -245,4 +245,66 @@ marquee{
 }
 .card-topic{
     line-height:normal;
+}
+
+.rightSideBoxHeader{
+    background-color: #609513;
+    color:#ffffff;
+    font-size:13px;
+    width:100%;
+    padding:10px;
+    line-height: 20px;
+}
+.rightSideMinisterAndOthers-img{
+    width:100px;
+    margin-bottom: 10px;
+}
+.rightSideMinisterAndOthers-info{
+    font-size:11px;
+}
+.details{
+    text-decoration: underline;
+}
+.right-side-link-list{
+    margin-bottom:50px;
+}
+.right-side-link-list ul{
+    list-style: none;
+    padding-left:0px;
+}
+.right-side-link-list ul li{
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right, #683091 0%, #8bc643 100%);
+    border-image-slice: 1;
+}
+.right-side-link-list ul li{
+   background: url("/resources/logo/rightMark2.png") no-repeat
+   scroll 0 0 rgba(0, 0, 0, 0);
+   font-size: 13px;
+   height:auto;
+   list-style-type: none;
+   margin-bottom: 5px;
+   padding-left: 32px;
+   padding-top:0px;
+   padding-bottom: 8px;
+   background-position:left;
+}
+.webEmailBtn{
+    background-color: #ffffff;
+    border:none;
+    font-size:11px;
+    text-decoration: underline;
+    color: rgb(93, 93, 93);
+    float:right;
+}
+.bottom{
+    height:100px;
+    background-color: #EBEBEB;
+}
+.footer-manu{
+    width:50%;
+}
+.nav-item{
+    width:auto;
+    float:left;
 }
