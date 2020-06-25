@@ -278,7 +278,7 @@ marquee{
     border-image-slice: 1;
 }
 .right-side-link-list ul li{
-   background: url("/resources/logo/rightMark2.png") no-repeat
+   background: url("https://res.cloudinary.com/abrar1125/image/upload/v1593060183/bteb/rightMark2_n0ktyg.png") no-repeat
    scroll 0 0 rgba(0, 0, 0, 0);
    font-size: 13px;
    height:auto;
